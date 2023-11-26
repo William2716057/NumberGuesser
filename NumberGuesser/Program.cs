@@ -13,7 +13,8 @@ namespace NumberGuesser
         //entry point method
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello");
+            string name = "User";
+            Console.WriteLine(name);
         }
     }
 }
