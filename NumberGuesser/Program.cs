@@ -21,7 +21,12 @@ namespace NumberGuesser
             string appVersion = "1.0.0";
             string appAuthor = "Person";
 
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("{0}: Version {1} by {2}", appName, appVersion, appAuthor);
+
+            //Console.ForegroundColor = ConsoleColor.Green;
+            Console.ResetColor();
+
         }
     }
 }
