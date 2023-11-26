@@ -13,6 +13,7 @@ namespace NumberGuesser
         //entry point method
         static void Main(string[] args)
         {
+            
         }
     }
 }
