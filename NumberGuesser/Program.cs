@@ -14,7 +14,7 @@ namespace NumberGuesser
         static void Main(string[] args)
         {
             string name = "User";
-            Console.WriteLine(name);
+            Console.WriteLine("Hello " + name);
         }
     }
 }
