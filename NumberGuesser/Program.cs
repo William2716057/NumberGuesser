@@ -14,7 +14,9 @@ namespace NumberGuesser
         static void Main(string[] args)
         {
             string name = "User";
-            Console.WriteLine("Hello " + name);
+            int age = 20;
+            Console.WriteLine(name + " is " + age);
+            Console.WriteLine("{0 is {1}", name, age);
         }
     }
 }
