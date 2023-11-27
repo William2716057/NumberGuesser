@@ -56,12 +56,21 @@ namespace NumberGuesser
                 if(guess != correctNumber)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
+
                     Console.WriteLine("Wrong Number, try again");
 
                     //Console.ForegroundColor = ConsoleColor.Green;
                     Console.ResetColor();
                 }
             }
+
+            //output success message
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            //right number message 
+            Console.WriteLine("You are correct");
+
+            //Console.ForegroundColor = ConsoleColor.Green;
+            Console.ResetColor();
         }
     }
 }
