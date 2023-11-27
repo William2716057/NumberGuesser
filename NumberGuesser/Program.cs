@@ -50,6 +50,17 @@ namespace NumberGuesser
                 string input = Console.ReadLine();
 
                 //Cast to int and put in guess
+                guess = Int32.Parse(input);
+
+                //match guess to correct number
+                if(guess != correctNumber)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Wrong Number, try again");
+
+                    //Console.ForegroundColor = ConsoleColor.Green;
+                    Console.ResetColor();
+                }
             }
         }
     }
