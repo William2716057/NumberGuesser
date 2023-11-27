@@ -49,6 +49,18 @@ namespace NumberGuesser
                 //Get input
                 string input = Console.ReadLine();
 
+                //check is integer
+                if(!int.TryParse(input, out guess))
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    //not number
+                    Console.WriteLine("Invalid input, must be number");
+
+                    //Console.ForegroundColor = ConsoleColor.Green;
+                    Console.ResetColor();
+                    //continue
+                    continue;
+                }
                 //Cast to int and put in guess
                 guess = Int32.Parse(input);
 
