@@ -27,6 +27,12 @@ namespace NumberGuesser
             //Console.ForegroundColor = ConsoleColor.Green;
             Console.ResetColor();
 
+            //Enter name here
+            Console.WriteLine("Enter Name Here: ");
+            //enter as string
+            string input = Console.ReadLine();
+
+            Console.WriteLine("Hello {0}, let's play", input);
         }
     }
 }
