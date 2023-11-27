@@ -30,9 +30,9 @@ namespace NumberGuesser
             //Enter name here
             Console.WriteLine("Enter Name Here: ");
             //enter as string
-            string input = Console.ReadLine();
+            string inputName = Console.ReadLine();
 
-            Console.WriteLine("Hello {0}, let's play", input);
+            Console.WriteLine("Hello {0}, let's play", inputName);
 
             //initialise number 
             int correctNumber = 7;
@@ -46,7 +46,10 @@ namespace NumberGuesser
             //loop so if not correct ask again
             while (guess != correctNumber)
             {
+                //Get input
+                string input = Console.ReadLine();
 
+                //Cast to int and put in guess
             }
         }
     }
