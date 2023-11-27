@@ -33,6 +33,21 @@ namespace NumberGuesser
             string input = Console.ReadLine();
 
             Console.WriteLine("Hello {0}, let's play", input);
+
+            //initialise number 
+            int correctNumber = 7;
+
+
+            //initialise guess 
+            int guess = 0;
+
+            //ask for input
+            Console.WriteLine("Enter number between 1 and 10");
+            //loop so if not correct ask again
+            while (guess != correctNumber)
+            {
+
+            }
         }
     }
 }
